@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Karla', sans-serif;
+    }
+
+    :is(a, button, input, textarea, select, details, summary):focus-visible {
+        outline: theme('colors.bright-yellow') solid 0.22rem;
+        outline-offset: 0.188rem;
+    }
+}
+
+@layer components {
+    .transition-default {
+        @apply transition-all duration-300 ease-in-out;
+    }
+
+    .shadow-default {
+        box-shadow: 0rem 0.625rem 0.625rem rgba(0, 0, 0, 0.0973011);
+    }
+
+    .shadow-main {
+        box-shadow: 0rem 0.9375rem 1.875rem rgba(0, 81, 171, 0.148847);
+    }
+}
+
+
+@layer utilities {
+    @media (prefers-reduced-motion: reduce) {
+        html:focus-within {
+            scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+            -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+            -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+            -webkit-transition-duration: 0.01ms !important;
+            -o-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
+        }
+    }
+}
