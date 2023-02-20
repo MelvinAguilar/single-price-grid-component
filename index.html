@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="author" content="Melvin Aguilar" />
+    <meta
+      name="description"
+      content="Single Price Grid Component Solution for FrontendMentor.io"
+    />
+    <meta
+      name="keywords"
+      content="Frontend Mentor, Single Price Grid Component Challenge, Melvin Aguilar"
+    />
+    <meta
+      property="og:title"
+      content="Single Price Grid Component - Frontend Mentor"
+    />
+    <meta
+      property="og:description"
+      content="Single Price Grid Component Solution for FrontendMentor.io"
+    />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -37,12 +54,13 @@
     <main
       class="shadow-main m-6 max-w-[25rem] overflow-auto rounded-lg bg-white md:grid md:max-w-[39.6875rem] md:grid-cols-2"
     >
+      <h1 class="sr-only">Single price grid component</h1>
       <div class="col-span-1 p-[1.5625rem] md:col-span-2 md:p-[2.5rem]">
-        <h1
+        <h2
           class="text-cyan text-[1.5rem] font-bold leading-7 tracking-[-0.019rem]"
         >
           Join our community
-        </h1>
+        </h2>
         <p
           class="text-bright-yellow -tracking-title mt-[1.375rem] text-[1.125rem] font-bold"
         >
@@ -57,9 +75,9 @@
         </p>
       </div>
       <div class="bg-cyan p-[1.5625rem] md:p-[2.5rem]">
-        <h2 class="-tracking-title text-[1.125rem] font-bold leading-5">
+        <h3 class="-tracking-title text-[1.125rem] font-bold leading-5">
           Monthly Subscription
-        </h2>
+        </h3>
         <p
           class="text-light-gray mt-[0.875rem] flex items-center gap-[0.6875rem]"
         >
@@ -77,17 +95,18 @@
         </a>
       </div>
       <div class="bg-cyan/80 p-[1.5625rem] leading-5 md:p-[2.5rem]">
-        <h2 class="-tracking-title text-[1.125rem] font-bold">Why Us</h2>
+        <h3 class="-tracking-title text-[1.125rem] font-bold">Why Us</h3>
         <ul
+          role="list"
           class="text-light-gray mt-[1.125rem] text-[0.875rem] tracking-[-0.011em]"
         >
-          <li>Tutorials by industry experts</li>
-          <li>Peer &amp; expert code review</li>
-          <li>Coding exercises</li>
-          <li>Access to our GitHub repos</li>
-          <li>Community forum</li>
-          <li>Flashcard decks</li>
-          <li>New videos every week</li>
+          <li role="listitem">Tutorials by industry experts</li>
+          <li role="listitem">Peer &amp; expert code review</li>
+          <li role="listitem">Coding exercises</li>
+          <li role="listitem">Access to our GitHub repos</li>
+          <li role="listitem">Community forum</li>
+          <li role="listitem">Flashcard decks</li>
+          <li role="listitem">New videos every week</li>
         </ul>
       </div>
     </main>

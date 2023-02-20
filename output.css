@@ -523,7 +523,7 @@ body {
 }
 
 .transition-default {
-  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-property: all;
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -536,32 +536,24 @@ body {
   box-shadow: 0rem 0.9375rem 1.875rem rgba(0, 81, 171, 0.148847);
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
 
 .m-6 {
   margin: 1.5rem;
-}
-
-.mt-\[14px\] {
-  margin-top: 14px;
-}
-
-.mt-\[18px\] {
-  margin-top: 18px;
-}
-
-.mt-\[22px\] {
-  margin-top: 22px;
-}
-
-.mt-\[26px\] {
-  margin-top: 26px;
-}
-
-.mt-\[7px\] {
-  margin-top: 7px;
 }
 
 .mt-\[0\.4375rem\] {
@@ -604,10 +596,6 @@ body {
   width: 100%;
 }
 
-.max-w-\[400px\] {
-  max-width: 400px;
-}
-
 .max-w-\[25rem\] {
   max-width: 25rem;
 }
@@ -618,10 +606,6 @@ body {
 
 .items-center {
   align-items: center;
-}
-
-.gap-\[11px\] {
-  gap: 11px;
 }
 
 .gap-\[0\.6875rem\] {
@@ -664,17 +648,8 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-\[25px\] {
-  padding: 25px;
-}
-
 .p-\[1\.5625rem\] {
   padding: 1.5625rem;
-}
-
-.py-\[14px\] {
-  padding-top: 14px;
-  padding-bottom: 14px;
 }
 
 .py-\[0\.875rem\] {
@@ -684,26 +659,6 @@ body {
 
 .text-center {
   text-align: center;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
-}
-
-.text-\[18px\] {
-  font-size: 18px;
-}
-
-.text-\[24px\] {
-  font-size: 24px;
-}
-
-.text-\[32px\] {
-  font-size: 32px;
 }
 
 .text-\[0\.875rem\] {
@@ -816,20 +771,12 @@ body {
     display: grid;
   }
 
-  .md\:max-w-\[635px\] {
-    max-width: 635px;
-  }
-
   .md\:max-w-\[39\.6875rem\] {
     max-width: 39.6875rem;
   }
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:p-\[40px\] {
-    padding: 40px;
   }
 
   .md\:p-\[2\.5rem\] {
