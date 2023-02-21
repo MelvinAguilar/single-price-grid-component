@@ -6,14 +6,14 @@
 
   <h2 align="center">Single price grid component solution</h2>
   <p align="center">
-    <a href="https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc"><strong>Frontend Mentor Challenge</strong></a>
+    <a href="https://www.frontendmentor.io/solutions/single-price-grid-component-tailwind-css-q8vKg0vRi-"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://single-price-grid-component-hdez.vercel.app/">View Demo</a>
     ·
-    <a href="" target="_blank">Report Bug</a>
+    <a href="https://github.com/MelvinAguilar/single-price-grid-component/issues" target="_blank">Report Bug</a>
     ·
-    <a href="" target="_blank">Request Feature</a>
+    <a href="https://github.com/MelvinAguilar/single-price-grid-component/issues" target="_blank">Request Feature</a>
   </p>
 </div>
 
@@ -25,7 +25,7 @@
   </a>
   <!-- Status -->
     <a href="#">
-    <img src="https://img.shields.io/badge/Status-Pending-E55937?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status Completed">
   </a>
 
 </div>
@@ -42,8 +42,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 <h2 align="center">Links</h2>
 
-<!-- - Solution URL: [Intro section with dropdown navigation (React + Tailwind + Dark mode) (React + SASS) | Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-tmQXOQU78e)
-- Live Site URL: [https://intro-section-with-dropdown-navigation-hdez.vercel.app/](https://intro-section-with-dropdown-navigation-hdez.vercel.app/)  -->
+- Solution URL: [Single price grid component (Tailwind CSS) | Frontend Mentor](https://www.frontendmentor.io/solutions/single-price-grid-component-tailwind-css-q8vKg0vRi-)
+- Live Site URL: [https://github.com/MelvinAguilar/single-price-grid-component](https://github.com/MelvinAguilar/single-price-grid-component)
 
 <br>
 
