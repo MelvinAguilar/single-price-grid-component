@@ -5,9 +5,20 @@ module.exports = {
     extend: {
       lineHeight: {
         paragraph: "1.62",
+        title: "0.019rem",
+        list: "0.011em",
+        aux: "0.009em",
       },
       letterSpacing: {
         title: "0.014em",
+      },
+      padding: {
+        default: "1.5625rem",
+      },
+      margin: {
+        4.5: "1.125rem",
+        5.5: "1.375rem",
+        6.5: "1.625rem",
       },
       colors: {
         cyan: "hsl(179, 62%, 43%)",
